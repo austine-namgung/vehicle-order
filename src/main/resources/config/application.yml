@@ -1,0 +1,25 @@
+
+#############
+### 공통 
+##############
+
+
+
+# embeded tomcat
+server:  
+  tomcat:
+    uri-encoding: UTF-8  
+    
+
+
+     
+spring:
+  application:
+    name: vehicle-order
+  
+  profiles:
+    active: local
+    
+  
+ 
+  

@@ -1,0 +1,27 @@
+
+
+###
+POST http://localhost:9601/api/orders
+Content-Type: application/json
+
+{
+    "orderTx": "tx-ABABAB-04",
+    "objectId": "0A0ZKrHx9O",
+    "year": "2013",
+    "make": "Hyundai",
+    "model": "Genesis",
+    "category": "Sedan"    
+}
+
+###
+## Order Table 조회
+GET http://localhost:9601/api/orders/tx-ABABAB-04
+
+
+###
+## Product Table 조회
+GET http://localhost:9602/api/product/tx-ABABAB-04
+
+###
+## Delivery Table조회
+GET http://localhost:9603/api/delivery/tx-ABABAB-04
